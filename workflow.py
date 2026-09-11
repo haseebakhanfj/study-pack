@@ -10,7 +10,7 @@ from typing import Dict, Any, Tuple
 from groq import Groq
 import prompt
 
-DEFAULT_MODEL = "llama-3.3-70b-versatile"
+DEFAULT_MODEL = "openai/gpt-oss-120b"
 
 class WorkflowError(Exception):
     """Custom exception class for pipeline stage failures."""
